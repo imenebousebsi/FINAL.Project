@@ -1,0 +1,132 @@
+/*PROGRAM SECTION (BACKGROUND IMAGE)*/
+.program {
+  max-width: 100%;
+  padding: 4rem 8%;
+
+  /* Dark overlay + Full Background Image */
+  background:
+    linear-gradient(to bottom, rgba(24, 24, 24, 0.92) 0%),
+    url("../images/programme.jpg") no-repeat center center / cover;
+}
+
+/* Header */
+.program-header {
+  margin-bottom: 2.5rem;
+  max-width: 600px;
+}
+
+.program-title {
+  color: var(--crb-red);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.program-header h2 {
+  font-size: 2.4rem;
+  font-weight: 800;
+  margin: 0.4rem 0;
+}
+
+.program-header h2 span {
+  color: var(--crb-red);
+}
+
+.program-intro {
+  color: var(--crb-gray);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Side-by-Side */
+.program-content {
+  display: flex;
+  gap: 2.5rem;
+  align-items: stretch;
+}
+
+/* Info List */
+.program-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.program-item {
+  background-color: rgba(0, 0, 0, 0.692);
+  backdrop-filter: blur(5px);
+  padding: 1.2rem;
+  border-left: 3px solid var(--crb-red);
+  border-radius: 4px;
+}
+
+.program-item h4 {
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+  color: var(--crb-white);
+}
+
+.program-item p {
+  color: var(--crb-gray);
+  font-size: 0.85rem;
+}
+
+/*  Card */
+.program-card {
+  width: 320px;
+  background-color: rgba(0, 0, 0, 0.703);
+  backdrop-filter: blur(8px);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(8, 8, 8, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+.program-card img {
+  display: none;
+}
+
+.card-small-title {
+  color: var(--crb-red);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.program-card h3 {
+  font-size: 1.4rem;
+  margin: 0.4rem 0;
+  line-height: 1.2;
+}
+
+.program-card h3 span {
+  color: var(--crb-red);
+}
+
+.program-card p {
+  color: var(--crb-gray);
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.program-btn {
+  background-color: var(--crb-red);
+  color: var(--crb-white);
+  padding: 0.75rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  transition: background-color 0.2s ease;
+}
+
+.program-btn:hover {
+  background-color: var(--crb-white);
+  color: var(--crb-red);
+}
