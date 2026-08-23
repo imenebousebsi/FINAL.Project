@@ -5,8 +5,8 @@
 
   /* Dark overlay + Full Background Image */
   background:
-    linear-gradient(to bottom, rgba(24, 24, 24, 0.92) 0%),
-    url("../images/programme.jpg") no-repeat center center / cover;
+    linear-gradient(to bottom, rgba(12, 11, 11, 0.233) 0%),
+    url("../images/progm.PNG") no-repeat center center / cover;
 }
 
 /* Header */

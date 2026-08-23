@@ -47,27 +47,34 @@ nav {
   padding: 1.2rem 2rem;
 }
 
-/* Logo Styling */
+/* Logo*/
 .logo {
-  font-weight: 800;
-  font-size: 1.1rem;
-  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
   color: var(--crb-white);
+  font-weight: bold;
+}
+
+/* Image*/
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+
+.logo-text {
   display: flex;
   flex-direction: column;
+  font-size: 0.85rem;
   line-height: 1.1;
-  text-transform: uppercase;
 }
 
-.logo span:first-child {
+.logo-text span {
   color: var(--crb-red);
-  font-size: 0.8rem;
-  letter-spacing: 2px;
 }
 
-.logo span:last-child {
-  color: var(--crb-red);
-}
 
 /* Nav Links */
 nav ul {

@@ -1,0 +1,68 @@
+/* Container*/
+.join-crb {
+  background-color: #0000005b;
+  color: var(--crb-white);
+  padding: 80px 5%;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.join-content {
+  max-width: 600px;
+}
+
+/*Tag*/
+.section-tag {
+  color:var(--crb-red);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Main title */
+.join-crb h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.join-crb h2 span {
+  color: var(--crb-red);
+}
+
+/* Paragraph*/
+.join-crb p {
+  color: #cccccc;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+/* Values*/
+.join-values {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.join-values span {
+  font-size: 0.95rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  position: relative;
+}
+
+
+.join-values span::before {
+  content: '•';
+  color: var(--crb-red);
+  margin-right: 8px;
+}
+

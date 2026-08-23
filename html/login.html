@@ -17,10 +17,12 @@
     <!-- NAVBAR -->
     <header>
       <nav>
-        <div class="logo">
-          <img src="" />
-          CHABAB RIADHI<span>BELOUIZDAD</span>
-        </div>
+        <a href="index.html" class="logo">
+            <img src="../images/logo (2).jpg" alt="CRB Logo" />
+             <div class="logo-text">
+              CHABAB RIADHI<span>BELOUIZDAD</span>
+             </div>
+        </a>
 
         <ul>
           <!-- links -->
@@ -38,5 +40,42 @@
         </ul>
       </nav>
     </header>
+
+    <main>
+
+      <div class="login">
+         <img src="../images/LOG IN BACKGROUND.PNG" alt="image" class="login__bg">
+
+         <form action="" class="login__form">
+            <h1 class="login__title">Login</h1>
+
+            <div class="login__inputs">
+               <div class="login__box">
+                  <input type="email" placeholder="Email" required class="login__input">
+                  <i class="ri-mail-fill"></i>
+               </div>
+
+               <div class="login__box">
+                  <input type="password" placeholder="Password" required class="login__input">
+                  <i class="ri-lock-2-fill"></i>
+               </div>
+            </div>
+
+            <div class="login__check">
+               <div class="login__check-box">
+                  <input type="checkbox" class="login__check-input" id="user-check">
+                  <label for="user-check" class="login__check-label">Remember me</label>
+               </div>
+
+               <a href="#" class="login__forgot">Forgot Password?</a>
+            </div>
+
+            <button type="submit" class="login__button">Login</button>
+
+            <div class="login__register">
+               Don't have an account? <a href="#">Register</a>
+            </div>
+         </form>
+    </main>
   </body>
 </html>
