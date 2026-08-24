@@ -30,8 +30,8 @@ a {
 
 /* HEADER & NAVBAR */
 header {
-  background-color: rgba(0, 0, 0, 0.9);
-  border-bottom: 2px solid var(--crb-red);
+  background-color: rgba(0, 0, 0, 0.459);
+  border-bottom: 0.5px solid #d4af37;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -92,7 +92,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--crb-red);
+  color: #d4af37;
 }
 
 /*RESET*/

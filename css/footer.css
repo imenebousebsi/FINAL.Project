@@ -61,7 +61,7 @@ footer{
     text-align: center;
 }
 .footerBottom p{
-    color: var(--crb-white);
+    color: white;
 }
 .designer{
     opacity: 0.7;
