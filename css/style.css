@@ -92,7 +92,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #d4af37;
+  color: var(--crb-red);
 }
 
 /*RESET*/

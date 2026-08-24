@@ -111,7 +111,7 @@ nav {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  background: #141414;
+  background: #00000098;
   border-left: 3px solid var(--crb-red);
   border-radius: 4px;
 }
@@ -133,7 +133,7 @@ nav {
 
 /* Form Styles */
 .contact-form {
-  background: #141414;
+  background: #070707da;
   border: 1px solid var(--crb-red);
   padding: 1.5rem;
   border-radius: 6px;
@@ -177,12 +177,4 @@ nav {
   background: var(--crb-red-dark);
 }
 
-/* Footer */
-.simple-footer {
-  text-align: center;
-  padding: 1.5rem;
-  border-top: 1px solid #222;
-  margin-top: 2rem;
-  color: var(--crb-gray);
-  font-size: 0.75rem;
-}
+
