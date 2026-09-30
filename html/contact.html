@@ -1,107 +1,262 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>CRB | Contact</title>
+    <title>Contact | CRB</title>
 
-    <link rel="stylesheet" href="../css/style.css" />
-
-    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="css/root.css" />
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
 
   <body>
-    <!-- NAVBAR -->
+    <!-- ================= HEADER ================= -->
+
     <header>
-       <nav>
+      <nav>
         <a href="index.html" class="logo">
-            <img src="../images/crbbb.PNG" alt="CRB Logo" />
-             <div class="logo-text">
-              CHABAB RIADHI<span>BELOUIZDAD</span>
-             </div>
+          <img src="images/crb-logo.png" alt="CRB Logo" />
+
+          <div>
+            <strong>CHABAB RIADHI</strong>
+            <span>BELOUIZDAD</span>
+          </div>
         </a>
 
-        <ul>
-          <!-- links -->
-          <li><a href="index.html">Home</a></li>
+        <div class="nav-links">
+          <a href="index.html">ACCUEIL</a>
+          <a href="about.html">À PROPOS</a>
+          <a href="sports.html">DISCIPLINES</a>
+          <a href="programs.html">PROGRAMMES</a>
+          <a href="gallery.html">GALERIE</a>
+          <a href="news.html">ACTUALITÉS</a>
+          <a href="contact.html" class="active">CONTACT</a>
+          <a href="inscription.html">INSCRIPTION</a>
+        </div>
 
-          <li><a href="index.html#about">About</a></li>
-
-          <li><a href="index.html#sports">sports</a></li>
-
-          <li><a href="index.html#program">programs</a></li>
-
-          <li><a href="login.html">log in</a></li>
-
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <div class="language">
+          <span>FR</span>
+          <span>|</span>
+          <span>AR</span>
+        </div>
       </nav>
     </header>
 
-    <main class="contact-page">
-       <img src="../images/LOG IN BACKGROUND.PNG" alt="image" class="login__bg">
-  <div class="contact-header">
-    <p class="tag">GET IN TOUCH</p>
-    <h1>CONTACT <span>CRB.</span></h1>
-    <p>Have a question about our sports or training programs? Send us a message.</p>
-  </div>
+    <!-- ================= HERO ================= -->
 
-  <div class="contact-container">
-    <!-- Contact Info List -->
-    <div class="contact-info">
-      <div class="contact-item">
-        <span class="num">01</span>
+    <section class="contact-hero">
+      <div class="contact-hero-content">
+        <p class="small-title">GET IN TOUCH</p>
+
+        <h1>CONTACT <span>CRB.</span></h1>
+
+        <div class="red-line"></div>
+
+        <p>
+          Une question sur nos disciplines, nos programmes ou les inscriptions ?
+          Nous sommes à votre écoute.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT INFO ================= -->
+
+    <main>
+      <section class="contact-section">
+        <div class="contact-grid">
+          <!-- LEFT -->
+
+          <div class="contact-info">
+            <h2>PARLONS <span>SPORT.</span></h2>
+
+            <p class="intro">
+              Vous souhaitez obtenir plus d'informations sur le club, une
+              discipline ou les modalités d'inscription ? Contactez-nous.
+            </p>
+
+            <!-- ADDRESS -->
+
+            <div class="info-card">
+              <div class="info-number">01</div>
+
+              <div>
+                <h3>ADRESSE</h3>
+                <p>
+                  Salle de sport du CRB<br />
+                  Belouizdad, Alger
+                </p>
+              </div>
+            </div>
+
+            <!-- PHONE -->
+
+            <div class="info-card">
+              <div class="info-number">02</div>
+
+              <div>
+                <h3>TÉLÉPHONE</h3>
+                <p>+213 XX XX XX XX</p>
+              </div>
+            </div>
+
+            <!-- EMAIL -->
+
+            <div class="info-card">
+              <div class="info-number">03</div>
+
+              <div>
+                <h3>EMAIL</h3>
+                <p>contact@crb.dz</p>
+              </div>
+            </div>
+
+            <!-- HOURS -->
+
+            <div class="info-card">
+              <div class="info-number">04</div>
+
+              <div>
+                <h3>HORAIRES</h3>
+                <p>
+                  Dimanche – Jeudi<br />
+                  08:00 – 21:00
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- RIGHT : FORM -->
+
+          <div class="contact-form">
+            <p class="form-title">ENVOYEZ-NOUS UN MESSAGE</p>
+
+            <h2>LET'S <span>TALK.</span></h2>
+
+            <form>
+              <div class="input-row">
+                <input type="text" placeholder="Votre nom" required />
+
+                <input type="email" placeholder="Votre email" required />
+              </div>
+
+              <select required>
+                <option value="" disabled selected>Choisissez un sujet</option>
+
+                <option>Information sur une discipline</option>
+
+                <option>Programmes d'entraînement</option>
+
+                <option>Inscription</option>
+
+                <option>Autre demande</option>
+              </select>
+
+              <textarea
+                placeholder="Écrivez votre message..."
+                rows="7"
+                required
+              ></textarea>
+
+              <button type="submit">ENVOYER LE MESSAGE →</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= HOW CAN WE HELP ================= -->
+
+      <section class="help-section">
+        <p class="small-title">BESOIN D'AIDE ?</p>
+
+        <h2>COMMENT POUVONS-NOUS <span>VOUS AIDER ?</span></h2>
+
+        <div class="help-grid">
+          <div class="help-card">
+            <span>01</span>
+            <h3>DISCIPLINES</h3>
+            <p>Découvrez les sports proposés par le CRB.</p>
+            <a href="sports.html"> VOIR LES DISCIPLINES → </a>
+          </div>
+
+          <div class="help-card">
+            <span>02</span>
+            <h3>PROGRAMMES</h3>
+            <p>Consultez les programmes et horaires d'entraînement.</p>
+            <a href="programs.html"> VOIR LES PROGRAMMES → </a>
+          </div>
+
+          <div class="help-card">
+            <span>03</span>
+            <h3>INSCRIPTION</h3>
+            <p>Téléchargez le formulaire d'inscription.</p>
+            <a href="inscription.html"> S'INSCRIRE → </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ================= MAP ================= -->
+
+      <section class="map-section">
+        <div class="map-title">
+          <p class="small-title">NOUS TROUVER</p>
+
+          <h2>VISITEZ <span>LE CRB.</span></h2>
+        </div>
+
+        <div class="map">
+          <!-- Remplace cette iframe par la vraie localisation du club -->
+
+          <iframe
+            src="https://www.google.com/maps?q=Belouizdad,Alger,Algeria&output=embed"
+            loading="lazy"
+            allowfullscreen
+          >
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+      <div class="footer-logo">
+        <img src="images/crb-logo.png" alt="CRB" />
+
         <div>
-          <h3>ADDRESS</h3>
-          <p>Salle de sport ait saada, Belouizdad, Algiers</p>
+          <strong>C.R.B</strong>
+
+          <p>
+            CHABAB RIADHI<br />
+            BELOUIZDAD
+          </p>
         </div>
       </div>
 
-      <div class="contact-item">
-        <span class="num">02</span>
-        <div>
-          <h3>PHONE</h3>
-          <p>+213</p>
-        </div>
+      <div>
+        <h3>NAVIGATION</h3>
+
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="sports.html">Disciplines</a>
+        <a href="programs.html">Programmes</a>
       </div>
 
-      <div class="contact-item">
-        <span class="num">03</span>
-        <div>
-          <h3>EMAIL</h3>
-          <p>media.crbcsa62@gmail.com</p>
-        </div>
+      <div>
+        <h3>NOUS SUIVRE</h3>
+
+        <p>Instagram · Facebook · YouTube</p>
       </div>
 
-      <div class="contact-item">
-        <span class="num">04</span>
-        <div>
-          <h3>WORKING HOURS</h3>
-          <p>Mon – Fri: 08:00 – 21:00</p>
-        </div>
-      </div>
-    </div>
+      <div>
+        <h3>CONTACT</h3>
 
-    <!-- Contact Form -->
-    <form class="contact-form">
-      <p class="tag">SEND US A MESSAGE</p>
-      <h2>LET'S TALK.</h2>
-
-      <div class="form-row">
-        <input type="text" placeholder="Your name" required />
-        <input type="email" placeholder="Your email" required />
+        <p>Belouizdad, Alger</p>
+        <p>+213 XX XX XX XX</p>
+        <p>contact@crb.dz</p>
       </div>
 
-      <input type="text" placeholder="Subject" required />
-      <textarea rows="5" placeholder="Write your message..." required></textarea>
-
-      <button type="submit">SEND MESSAGE →</button>
-    </form>
-  </div>
-</main>
-
-   <script src="../js/main.js"></script>
-
+      <div class="copyright">© 2026 CRB. Tous droits réservés.</div>
+    </footer>
   </body>
+</html>

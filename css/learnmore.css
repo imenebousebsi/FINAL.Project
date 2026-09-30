@@ -33,7 +33,6 @@ nav {
   width: auto;
 }
 
-
 .logo-text {
   display: flex;
   flex-direction: column;
@@ -44,7 +43,6 @@ nav {
 .logo-text span {
   color: var(--crb-red);
 }
-
 
 /* Nav Links */
 nav ul {
@@ -62,5 +60,5 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--crb-red-dark)
+  color: var(--crb-red-dark);
 }
