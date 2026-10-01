@@ -66,3 +66,154 @@
   margin-right: 8px;
 }
 
+/* ================================
+   RESPONSIVE JOIN CRB
+================================ */
+
+@media (max-width: 992px) {
+
+    .join-crb {
+        padding: 70px 6%;
+    }
+
+    .join-content {
+        max-width: 550px;
+    }
+
+    .join-crb h2 {
+        font-size: 2.5rem;
+    }
+
+    .join-crb p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    .join-values {
+        gap: 18px;
+    }
+
+    .join-values span {
+        font-size: 0.9rem;
+    }
+
+}
+
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 768px) {
+
+    .join-crb {
+        padding: 60px 6%;
+        display: block;
+    }
+
+    .join-content {
+        max-width: 100%;
+    }
+
+    .section-tag {
+        font-size: 0.8rem;
+        letter-spacing: 1.8px;
+        margin-bottom: 10px;
+    }
+
+    .join-crb h2 {
+        font-size: 2.2rem;
+        line-height: 1.1;
+        margin-bottom: 14px;
+    }
+
+    .join-crb p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+        margin-bottom: 25px;
+    }
+
+    .join-values {
+        gap: 14px 20px;
+    }
+
+    .join-values span {
+        font-size: 0.85rem;
+    }
+
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 480px) {
+
+    .join-crb {
+        padding: 50px 5%;
+    }
+
+    .section-tag {
+        font-size: 0.72rem;
+        letter-spacing: 1.5px;
+        margin-bottom: 8px;
+    }
+
+    .join-crb h2 {
+        font-size: 1.8rem;
+        line-height: 1.15;
+        margin-bottom: 12px;
+    }
+
+    .join-crb p {
+        font-size: 0.85rem;
+        line-height: 1.6;
+        margin-bottom: 22px;
+    }
+
+    .join-values {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .join-values span {
+        font-size: 0.78rem;
+        letter-spacing: 1px;
+    }
+
+}
+
+
+/* ================================
+   SMALL PHONES
+================================ */
+
+@media (max-width: 360px) {
+
+    .join-crb {
+        padding: 40px 5%;
+    }
+
+    .section-tag {
+        font-size: 0.65rem;
+    }
+
+    .join-crb h2 {
+        font-size: 1.55rem;
+    }
+
+    .join-crb p {
+        font-size: 0.78rem;
+        line-height: 1.5;
+    }
+
+    .join-values {
+        gap: 8px;
+    }
+
+    .join-values span {
+        font-size: 0.72rem;
+    }
+
+}

@@ -1,214 +1,197 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>CRB | program</title>
+<html lang="fr">
 
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="../css/style.css" />
+<head>
 
-    <!-- Login CSS -->
-    <link rel="stylesheet" href="../css/login.css" />
-  </head>
+  <meta charset="UTF-8" />
 
-  <body>
-    <!-- NAVBAR -->
-    <header>
-      <nav>
-        <a href="index.html" class="logo">
-          <img src="../images/crbbb.PNG" alt="CRB Logo" />
-          <div class="logo-text">CHABAB RIADHI<span>BELOUIZDAD</span></div>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>CRB | Inscription</title>
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="../css/style.css" />
+
+  <!-- Login CSS -->
+  <link rel="stylesheet" href="../css/login.css" />
+
+  <!--footer css-->
+     <link rel="stylesheet" href="../css/footer.css" />
+
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header>
+
+    <nav>
+
+      <a href="index.html" class="logo">
+
+        <img
+          src="../images/CRB étoilé.png"
+          alt="CRB Logo"
+        />
+
+        <div class="logo-text">
+         النادي الهاوي لشباب
+          <span>رياضي بلوزداد</span>
+        </div>
+
+      </a>
+
+
+      <ul>
+
+       <li><a href="index.html">accueil</a></li>
+
+            <li><a href="index.html#about">À propos</a></li>
+
+            <li><a href="index.html#sports">sports</a></li>
+
+            <li><a href="index.html#program">programme</a></li>
+
+            <li><a href="login.html">inscription</a></li>
+
+            <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+
+    </nav>
+
+  </header>
+
+
+
+  <!-- ================= HERO ================= -->
+
+  <section class="inscription-hero">
+
+    <div class="hero-content">
+
+      <p>INSCRIPTION</p>
+
+      <h1>
+        REJOIGNEZ <span>LE CRB</span>
+      </h1>
+
+      <div class="line"></div>
+
+      <p class="description">
+
+        Vous souhaitez pratiquer une discipline au sein du CRB ?
+        Consultez la fiche d'inscription et préparez votre dossier.
+
+      </p>
+
+      <div class="hero-image">
+          <img src="../images/BETTER.PNG" alt="legends" />
+        </div>
+
+    </div>
+
+  </section>
+
+
+
+  
+
+  <!-- ================= REGISTRATION CONTENT ================= -->
+<main class="registration">
+
+  <div class="registration-grid">
+
+    <!-- left-->
+    <div class="left-col">
+      <div class="section-title">
+        <div class="icon">↓</div>
+        <div>
+          <h2>FICHE <span>D'INSCRIPTION</span></h2>
+          <p>Retrouvez ci-dessous la fiche officielle d'inscription du CRB pour la saison 2026–2027.</p>
+        </div>
+      </div>
+
+      <div class="fiche-container">
+        <img src="../images/fiche d'inscription.jpg" alt="Fiche d'inscription CRB 2026-2027" class="fiche-image" />
+      </div>
+
+      <div class="fiche-actions">
+        <a href="../images/fiche d'inscription.jpg" class="download-btn" download="Fiche-inscription-CRB-2026-2027.jpg">
+          ↓ &nbsp; TÉLÉCHARGER LA FICHE
         </a>
+        <button type="button" class="print-btn" onclick="window.print()">
+          🖨 &nbsp; IMPRIMER
+        </button>
+      </div>
+    </div>
+
+    <!-- rrright-->
+    <div class="right-col">
+      <div class="documents">
+        <div class="section-title">
+          <div class="icon">▤</div>
+          <div>
+            <h2>DOCUMENTS <span>NÉCESSAIRES</span></h2>
+            <p>Veuillez préparer les documents suivants :</p>
+          </div>
+        </div>
 
         <ul>
-          <!-- links -->
-          <li><a href="index.html">Home</a></li>
-
-          <li><a href="index.html#about">About</a></li>
-
-          <li><a href="index.html#sports">sports</a></li>
-
-          <li><a href="index.html#program">programs</a></li>
-
-          <li><a href="login.html">log in</a></li>
-
-          <li><a href="contact.html">Contact</a></li>
+          <li>Fiche d'inscription complète et signée</li>
+          <li>Un extrait de naissance</li>
+          <li>Deux (02) photos d'identité</li>
+          <li>Bon de versement des frais d'inscription</li>
         </ul>
-      </nav>
-    </header>
-
-    <!-- HERO -->
-    <section class="inscription-hero">
-      <div class="hero-content">
-        <p>INSCRIPTION</p>
-
-        <h1>REJOIGNEZ <span>LE CRB</span></h1>
-
-        <div class="line"></div>
-
-        <p class="description">
-          Vous souhaitez pratiquer une discipline au sein du CRB ? Téléchargez
-          le formulaire d'inscription et préparez votre dossier.
-        </p>
-      </div>
-    </section>
-
-    <!-- REGISTRATION CONTENT -->
-    <main class="registration">
-      <!-- LEFT -->
-      <section class="registration-info">
-        <div class="section-title">
-          <div class="icon">↓</div>
-
-          <div>
-            <h2>FORMULAIRE <span>D'INSCRIPTION</span></h2>
-
-            <p>
-              Téléchargez le formulaire d'inscription au format PDF.
-              Remplissez-le soigneusement et apportez-le lors de votre venue au
-              club.
-            </p>
-          </div>
-        </div>
-
-        <a
-          href="documents/formulaire-inscription.pdf"
-          class="download-btn"
-          download
-        >
-          ↓ &nbsp; TÉLÉCHARGER LE FORMULAIRE PDF
-        </a>
-
-        <span class="file-size">PDF · 1,2 MB</span>
-
-        <!-- DOCUMENTS -->
-        <div class="documents">
-          <div class="section-title">
-            <div class="icon">▤</div>
-
-            <div>
-              <h2>DOCUMENTS <span>NÉCESSAIRES</span></h2>
-
-              <p>Veuillez préparer les documents suivants :</p>
-            </div>
-          </div>
-
-          <ul>
-            <li>Formulaire d'inscription rempli</li>
-            <li>Photo d'identité récente</li>
-            <li>Certificat médical</li>
-            <li>Copie de la pièce d'identité</li>
-            <li>Autres documents selon la discipline</li>
-          </ul>
-        </div>
-
-        <!-- INFO BOX -->
-        <div class="info-box">
-          <strong>ⓘ</strong>
-
-          <p>
-            Pour toute question, n'hésitez pas à nous contacter via la page
-            <b>Contact</b> ou à vous rendre directement au club.
-          </p>
-        </div>
-      </section>
-
-      <!-- RIGHT : FORM PREVIEW -->
-      <section class="form-preview">
-        <div class="paper">
-          <div class="paper-header">
-            <img src="images/crb-logo.png" alt="CRB" />
-
-            <div>
-              <h3>FORMULAIRE D'INSCRIPTION</h3>
-              <p>CHABAB RIADHI BELOUIZDAD</p>
-            </div>
-          </div>
-
-          <div class="form-section">
-            <h4>INFORMATIONS PERSONNELLES</h4>
-
-            <div class="fake-inputs">
-              <div>NOM :</div>
-              <div>PRÉNOM :</div>
-              <div>DATE DE NAISSANCE :</div>
-              <div>SEXE : ☐ Masculin &nbsp; ☐ Féminin</div>
-              <div>ADRESSE :</div>
-              <div>VILLE :</div>
-              <div>TÉLÉPHONE :</div>
-              <div>EMAIL :</div>
-            </div>
-          </div>
-
-          <div class="form-section">
-            <h4>INFORMATIONS SPORTIVES</h4>
-
-            <div class="fake-inputs">
-              <div>DISCIPLINE CHOISIE :</div>
-              <div>CATÉGORIE / ÂGE :</div>
-              <div>NIVEAU : ☐ Débutant ☐ Intermédiaire ☐ Confirmé</div>
-            </div>
-          </div>
-
-          <div class="form-section">
-            <h4>PERSONNE À CONTACTER</h4>
-
-            <div class="fake-inputs">
-              <div>NOM ET PRÉNOM :</div>
-              <div>TÉLÉPHONE :</div>
-            </div>
-          </div>
-
-          <div class="declaration">
-            <h4>DÉCLARATION</h4>
-
-            <p>
-              Je soussigné(e), atteste l'exactitude des informations fournies et
-              m'engage à respecter le règlement intérieur du club.
-            </p>
-
-            <div class="signature">
-              <span>DATE : __________</span>
-              <span>SIGNATURE : __________</span>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-      <div class="footer-logo">
-        <img src="images/crb-logo.png" alt="CRB" />
-        <div>
-          <strong>C.R.B</strong>
-          <p>CHABAB RIADHI<br />BELOUIZDAD</p>
-        </div>
       </div>
 
-      <div>
-        <h3>Navigation</h3>
-        <a href="index.html">Accueil</a>
-        <a href="about.html">À propos</a>
-        <a href="sports.html">Disciplines</a>
-        <a href="programs.html">Programmes</a>
+      <div class="info-box">
+        <strong>ⓘ</strong>
+        <p>Veuillez lire attentivement la fiche et préparer l'ensemble des documents demandés avant de déposer votre dossier auprès du club.</p>
       </div>
+    </div>
 
-      <div>
-        <h3>Nous suivre</h3>
-        <p>Instagram · Facebook · YouTube</p>
-      </div>
+  </div>
 
-      <div>
-        <h3>Contact</h3>
-        <p>Belouizdad, Alger</p>
-        <p>+213 XX XX XX XX</p>
-        <p>contact@crb.dz</p>
-      </div>
+</main>
 
-      <div class="copyright">© 2026 CRB. Tous droits réservés.</div>
-    </footer>
+
+ <!--footer-->
+   <footer>
+    <div class="footerContainer">
+    <div class="socialIcons">
+        
+        <a href="https://www.facebook.com/p/CSA-CRB-Club-Omni-Sport-61580819447930/?locale=fr_FR" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://www.instagram.com/crb_csa/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.snapchat.com/@crbelouizdadcsa" target="_blank"><i class="fa-brands fa-snapchat"></i></a>
+        <a href="https://www.threads.com/@crb_csa" target="_blank"><i class="fa-brands fa-threads"></i></a>
+        
+    </div>
+
+    <div class="footerNav">
+        
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="sports.html">Sports</a></li>
+            <li><a href="programs.html">Programmes</a></li>
+            <li><a href="login.html">Inscription</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</div>
+    <div class="footerBottom">
+        <p>Copyright © 2026 ; Conçu par <span class="designer">CSA CRB</span></p>
+    </div>
+</footer> 
+
+   <script src="../js/main.js"></script>
+
+
   </body>
 </html>

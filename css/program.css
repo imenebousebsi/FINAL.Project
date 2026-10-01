@@ -130,3 +130,232 @@
   background-color: var(--crb-white);
   color: var(--crb-red);
 }
+
+/* =========================
+   PROGRAM SECTION - RESPONSIVE
+========================= */
+
+
+/* ---------- LARGE TABLET ---------- */
+@media (max-width: 1200px) {
+
+  .program {
+    padding: 4rem 6%;
+  }
+
+  .program-content {
+    gap: 2rem;
+  }
+
+  .program-card {
+    width: 300px;
+  }
+
+}
+
+
+/* ---------- TABLET ---------- */
+@media (max-width: 992px) {
+
+  .program {
+    padding: 3.5rem 5%;
+  }
+
+  .program-header {
+    max-width: 650px;
+    margin-bottom: 2rem;
+  }
+
+  .program-header h2 {
+    font-size: 2.1rem;
+  }
+
+  .program-content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .program-info {
+    width: 100%;
+  }
+
+  .program-item {
+    padding: 1.1rem;
+  }
+
+  .program-card {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+}
+
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 768px) {
+
+  .program {
+    padding: 3rem 6%;
+    background-position: center;
+  }
+
+  .program-header {
+    margin-bottom: 2rem;
+  }
+
+  .program-title {
+    font-size: 0.75rem;
+    letter-spacing: 1.8px;
+  }
+
+  .program-header h2 {
+    font-size: 1.9rem;
+    line-height: 1.1;
+  }
+
+  .program-intro {
+    font-size: 0.85rem;
+    line-height: 1.6;
+  }
+
+  .program-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .program-info {
+    gap: 0.8rem;
+  }
+
+  .program-item {
+    padding: 1rem;
+    border-left-width: 3px;
+  }
+
+  .program-item h4 {
+    font-size: 0.95rem;
+  }
+
+  .program-item p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+
+  .program-card {
+    width: 100%;
+    max-width: 100%;
+    padding: 1.3rem;
+  }
+
+  .program-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .program-card p {
+    font-size: 0.82rem;
+  }
+
+  .program-btn {
+    padding: 0.7rem 0.9rem;
+    font-size: 0.78rem;
+  }
+
+}
+
+
+/* ---------- SMALL PHONES ---------- */
+@media (max-width: 480px) {
+
+  .program {
+    padding: 2.5rem 5%;
+  }
+
+  .program-title {
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+  }
+
+  .program-header h2 {
+    font-size: 1.65rem;
+  }
+
+  .program-intro {
+    font-size: 0.8rem;
+  }
+
+  .program-content {
+    gap: 1.2rem;
+  }
+
+  .program-item {
+    padding: 0.9rem;
+  }
+
+  .program-item h4 {
+    font-size: 0.9rem;
+  }
+
+  .program-item p {
+    font-size: 0.76rem;
+  }
+
+  .program-card {
+    padding: 1.1rem;
+    border-radius: 7px;
+  }
+
+  .card-small-title {
+    font-size: 0.68rem;
+  }
+
+  .program-card h3 {
+    font-size: 1.15rem;
+  }
+
+  .program-card p {
+    font-size: 0.78rem;
+    line-height: 1.5;
+    margin-bottom: 1.2rem;
+  }
+
+  .program-btn {
+    padding: 0.65rem 0.8rem;
+    font-size: 0.72rem;
+  }
+
+}
+
+
+/* ---------- VERY SMALL PHONES ---------- */
+@media (max-width: 360px) {
+
+  .program {
+    padding: 2.2rem 5%;
+  }
+
+  .program-header h2 {
+    font-size: 1.45rem;
+  }
+
+  .program-intro {
+    font-size: 0.75rem;
+  }
+
+  .program-item h4 {
+    font-size: 0.85rem;
+  }
+
+  .program-item p {
+    font-size: 0.72rem;
+  }
+
+  .program-card h3 {
+    font-size: 1.05rem;
+  }
+
+  .program-card p {
+    font-size: 0.73rem;
+  }
+
+}

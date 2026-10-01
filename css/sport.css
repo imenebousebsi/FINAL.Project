@@ -151,3 +151,177 @@
   background: var(--crb-white);
   color: var(--crb-red);
 }
+
+/* =========================
+   SPORTS - RESPONSIVE
+========================= */
+
+
+/* ---------- LARGE TABLET ---------- */
+@media (max-width: 1200px) {
+
+  .sports {
+    padding: 70px 5%;
+  }
+
+  .sport-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .sport-card {
+    height: 300px;
+  }
+
+}
+
+
+/* ---------- TABLET ---------- */
+@media (max-width: 992px) {
+
+  .sports {
+    padding: 65px 5%;
+  }
+
+  .sports > h2 {
+    font-size: 36px;
+    margin-bottom: 35px;
+  }
+
+  .sport-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .sport-card {
+    height: 320px;
+  }
+
+  .sport-card h3 {
+    font-size: 18px;
+    left: 14px;
+    bottom: 18px;
+  }
+
+}
+
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 768px) {
+
+  .sports {
+    padding: 55px 6%;
+  }
+
+  .red-title {
+    font-size: 12px;
+    letter-spacing: 2.5px;
+  }
+
+  .sports > h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .sport-container {
+    grid-template-columns: 1fr;
+    gap: 18px;
+    max-width: 500px;
+  }
+
+  .sport-card {
+    width: 100%;
+    height: 330px;
+  }
+
+  .sport-card h3 {
+    left: 18px;
+    bottom: 20px;
+    font-size: 19px;
+  }
+
+  .sport-card a {
+    right: 15px;
+    bottom: 15px;
+    width: 32px;
+    height: 32px;
+    font-size: 17px;
+  }
+
+}
+
+
+/* ---------- SMALL PHONES ---------- */
+@media (max-width: 480px) {
+
+  .sports {
+    padding: 50px 5%;
+  }
+
+  .red-title {
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  .sports > h2 {
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+  }
+
+  .sport-container {
+    gap: 15px;
+  }
+
+  .sport-card {
+    height: 280px;
+  }
+
+  .sport-card h3 {
+    left: 15px;
+    bottom: 17px;
+    font-size: 16px;
+  }
+
+  .sport-card a {
+    width: 29px;
+    height: 29px;
+    right: 12px;
+    bottom: 12px;
+    font-size: 15px;
+  }
+
+}
+
+
+/* ---------- VERY SMALL PHONES ---------- */
+@media (max-width: 360px) {
+
+  .sports {
+    padding: 45px 5%;
+  }
+
+  .sports > h2 {
+    font-size: 25px;
+  }
+
+  .sport-card {
+    height: 250px;
+  }
+
+  .sport-card h3 {
+    font-size: 15px;
+    left: 12px;
+    bottom: 14px;
+  }
+
+  .sport-card a {
+    width: 27px;
+    height: 27px;
+    right: 10px;
+    bottom: 10px;
+    font-size: 14px;
+  }
+
+}

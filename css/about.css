@@ -159,3 +159,184 @@
   background: var(--crb-white);
   color: var(--crb-red);
 }
+
+/* =========================
+   ABOUT SECTION - RESPONSIVE
+========================= */
+
+/* ---------- TABLET ---------- */
+@media (max-width: 992px) {
+
+  .about {
+    min-height: auto;
+    padding: 80px 6%;
+    gap: 50px;
+  }
+
+  .about-image {
+    width: 48%;
+    height: 480px;
+  }
+
+  .about-text {
+    width: 52%;
+  }
+
+  .about-title {
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-left: 40px;
+  }
+
+  .about-text h2 {
+    font-size: clamp(38px, 5vw, 55px);
+    margin-bottom: 25px;
+  }
+
+  .about-text > p:not(.about-title) {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+}
+
+
+/* ---------- MOBILE ---------- */
+@media (max-width: 768px) {
+
+  .about {
+    min-height: auto;
+    padding: 70px 6%;
+    flex-direction: column;
+    gap: 55px;
+    text-align: left;
+  }
+
+  /* IMAGE */
+
+  .about-image {
+    width: 100%;
+    max-width: 600px;
+    height: 420px;
+  }
+
+  .about-image::before {
+    transform: translate(-12px, 12px);
+  }
+
+  .about-image::after {
+    width: 80px;
+    height: 80px;
+    right: -15px;
+    bottom: -15px;
+  }
+
+  /* TEXT */
+
+  .about-text {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .about-title {
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding-left: 35px;
+    margin-bottom: 15px;
+  }
+
+  .about-text h2 {
+    font-size: clamp(36px, 10vw, 50px);
+    line-height: 0.95;
+    letter-spacing: -1px;
+    margin-bottom: 25px;
+  }
+
+  .about-text > p:not(.about-title) {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 16px;
+  }
+
+  .about-btn {
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 13px;
+  }
+
+}
+
+
+/* ---------- SMALL PHONES ---------- */
+@media (max-width: 480px) {
+
+  .about {
+    padding: 55px 5%;
+    gap: 45px;
+  }
+
+  .about-image {
+    height: 330px;
+  }
+
+  .about-image::before {
+    transform: translate(-8px, 8px);
+    border-width: 1px;
+  }
+
+  .about-image::after {
+    width: 60px;
+    height: 60px;
+    right: -10px;
+    bottom: -10px;
+  }
+
+  .about-title {
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding-left: 25px;
+  }
+
+  .about-text h2 {
+    font-size: 34px;
+    line-height: 0.95;
+    margin-bottom: 20px;
+  }
+
+  .about-text > p:not(.about-title) {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  .about-btn {
+    font-size: 12px;
+    padding: 10px 14px;
+  }
+
+}
+
+
+/* ---------- VERY SMALL PHONES ---------- */
+@media (max-width: 360px) {
+
+  .about {
+    padding: 45px 5%;
+  }
+
+  .about-image {
+    height: 280px;
+  }
+
+  .about-title {
+    font-size: 13px;
+  }
+
+  .about-text h2 {
+    font-size: 30px;
+  }
+
+  .about-text > p:not(.about-title) {
+    font-size: 12px;
+  }
+
+}

@@ -33,7 +33,7 @@ footer{
 }
 .socialIcons a:hover i{
     color: var(--crb-white)
-    transition: 0.5s;
+    transition 0.5s;
 }
 .footerNav{
     margin: 30px 0;
@@ -69,4 +69,187 @@ footer{
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
+}
+
+
+/* ================================
+   RESPONSIVE FOOTER
+================================ */
+
+@media (max-width: 992px) {
+
+    .footerContainer {
+        padding: 60px 25px 20px;
+    }
+
+    .socialIcons a {
+        padding: 9px;
+        margin: 8px;
+    }
+
+    .socialIcons a i {
+        font-size: 1.7em;
+    }
+
+    .footerNav {
+        margin: 25px 0;
+    }
+
+    .footerNav ul {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .footerNav ul li a {
+        font-size: 1.1em;
+        margin: 12px;
+    }
+
+}
+
+
+/* ================================
+   TABLET / MOBILE
+================================ */
+
+@media (max-width: 768px) {
+
+    .footerContainer {
+        padding: 50px 20px 15px;
+    }
+
+    .socialIcons {
+        flex-wrap: wrap;
+    }
+
+    .socialIcons a {
+        padding: 8px;
+        margin: 6px;
+    }
+
+    .socialIcons a i {
+        font-size: 1.5em;
+    }
+
+    .footerNav {
+        margin: 20px 0;
+    }
+
+    .footerNav ul {
+        flex-wrap: wrap;
+        gap: 5px 10px;
+    }
+
+    .footerNav ul li a {
+        font-size: 0.95em;
+        margin: 8px;
+    }
+
+    .footerBottom {
+        padding: 18px 12px;
+    }
+
+    .footerBottom p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 480px) {
+
+    .footerContainer {
+        padding: 40px 15px 15px;
+    }
+
+    .socialIcons {
+        gap: 5px;
+    }
+
+    .socialIcons a {
+        padding: 8px;
+        margin: 4px;
+    }
+
+    .socialIcons a i {
+        font-size: 1.3em;
+    }
+
+    .footerNav {
+        margin: 20px 0;
+    }
+
+    .footerNav ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .footerNav ul li {
+        text-align: center;
+    }
+
+    .footerNav ul li a {
+        display: block;
+        font-size: 0.9em;
+        margin: 5px;
+    }
+
+    .footerBottom {
+        padding: 15px 10px;
+    }
+
+    .footerBottom p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .designer {
+        font-size: 11px;
+        letter-spacing: 0.8px;
+        margin: 0 3px;
+    }
+
+}
+
+
+/* ================================
+   SMALL PHONES
+================================ */
+
+@media (max-width: 360px) {
+
+    .footerContainer {
+        padding: 35px 10px 12px;
+    }
+
+    .socialIcons a {
+        padding: 7px;
+        margin: 3px;
+    }
+
+    .socialIcons a i {
+        font-size: 1.1em;
+    }
+
+    .footerNav ul li a {
+        font-size: 0.8em;
+    }
+
+    .footerBottom {
+        padding: 12px 8px;
+    }
+
+    .footerBottom p {
+        font-size: 10px;
+    }
+
+    .designer {
+        font-size: 10px;
+    }
+
 }
