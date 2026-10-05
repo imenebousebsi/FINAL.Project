@@ -129,12 +129,12 @@ nav ul li a:hover {
   align-items: center;
 }
 
-.about-image {
+.about-image2{
   height: 480px;
   overflow: hidden;
 }
 
-.about-image img {
+.about-image2 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
