@@ -1,7 +1,7 @@
 /* HEADER & NAVBAR */
 header {
   background-color: rgba(0, 0, 0, 0.459);
-  border-bottom: 0.5px solid #d4af37;
+  border-bottom: 0.5px solid var(--crb-red);
   position: sticky;
   top: 0;
   z-index: 1000;
