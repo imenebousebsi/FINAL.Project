@@ -281,6 +281,52 @@ body {
   color: #e30613;
 }
 
+/* ================= RESPONSIVE ================= */
+
+/* ---------- TABLET ---------- */
+@media (max-width: 992px) {
+  /* NAVBAR */
+  nav {
+    max-width: 100%;
+    padding: 1rem 1.5rem;
+  }
+
+  nav ul {
+    gap: 1.2rem;
+  }
+
+  nav ul li a {
+    font-size: 0.8rem;
+  }
+
+  .logo img {
+    height: 36px;
+  }
+
+  .logo-text {
+    font-size: 0.75rem;
+  }
+
+  /* HERO */
+  .hero {
+    height: 400px;
+  }
+
+  .hero-text {
+    width: 55%;
+    padding-left: 35px;
+  }
+
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .description {
+    max-width: 380px;
+    font-size: 11px;
+  }
+}
+
 /* ---------- MOBILE ---------- */
 @media (max-width: 768px) {
   /* HEADER */

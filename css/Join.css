@@ -3,7 +3,7 @@
   background-color: #0000005b;
   color: var(--crb-white);
   padding: 80px 5%;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   display: flex;
   align-items: center;
 }
@@ -14,7 +14,7 @@
 
 /*Tag*/
 .section-tag {
-  color:var(--crb-red);
+  color: var(--crb-red);
   font-size: 0.875rem;
   font-weight: 700;
   letter-spacing: 2px;
@@ -59,9 +59,8 @@
   position: relative;
 }
 
-
 .join-values span::before {
-  content: '•';
+  content: "•";
   color: var(--crb-red);
   margin-right: 8px;
 }
@@ -71,149 +70,138 @@
 ================================ */
 
 @media (max-width: 992px) {
+  .join-crb {
+    padding: 70px 6%;
+  }
 
-    .join-crb {
-        padding: 70px 6%;
-    }
+  .join-content {
+    max-width: 550px;
+  }
 
-    .join-content {
-        max-width: 550px;
-    }
+  .join-crb h2 {
+    font-size: 2.5rem;
+  }
 
-    .join-crb h2 {
-        font-size: 2.5rem;
-    }
+  .join-crb p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
 
-    .join-crb p {
-        font-size: 1rem;
-        line-height: 1.6;
-    }
+  .join-values {
+    gap: 18px;
+  }
 
-    .join-values {
-        gap: 18px;
-    }
-
-    .join-values span {
-        font-size: 0.9rem;
-    }
-
+  .join-values span {
+    font-size: 0.9rem;
+  }
 }
-
 
 /* ================================
    TABLET
 ================================ */
 
 @media (max-width: 768px) {
+  .join-crb {
+    padding: 60px 6%;
+    display: block;
+  }
 
-    .join-crb {
-        padding: 60px 6%;
-        display: block;
-    }
+  .join-content {
+    max-width: 100%;
+  }
 
-    .join-content {
-        max-width: 100%;
-    }
+  .section-tag {
+    font-size: 0.8rem;
+    letter-spacing: 1.8px;
+    margin-bottom: 10px;
+  }
 
-    .section-tag {
-        font-size: 0.8rem;
-        letter-spacing: 1.8px;
-        margin-bottom: 10px;
-    }
+  .join-crb h2 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+    margin-bottom: 14px;
+  }
 
-    .join-crb h2 {
-        font-size: 2.2rem;
-        line-height: 1.1;
-        margin-bottom: 14px;
-    }
+  .join-crb p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+  }
 
-    .join-crb p {
-        font-size: 0.95rem;
-        line-height: 1.6;
-        margin-bottom: 25px;
-    }
+  .join-values {
+    gap: 14px 20px;
+  }
 
-    .join-values {
-        gap: 14px 20px;
-    }
-
-    .join-values span {
-        font-size: 0.85rem;
-    }
-
+  .join-values span {
+    font-size: 0.85rem;
+  }
 }
-
 
 /* ================================
    MOBILE
 ================================ */
 
 @media (max-width: 480px) {
+  .join-crb {
+    padding: 50px 5%;
+  }
 
-    .join-crb {
-        padding: 50px 5%;
-    }
+  .section-tag {
+    font-size: 0.72rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+  }
 
-    .section-tag {
-        font-size: 0.72rem;
-        letter-spacing: 1.5px;
-        margin-bottom: 8px;
-    }
+  .join-crb h2 {
+    font-size: 1.8rem;
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
 
-    .join-crb h2 {
-        font-size: 1.8rem;
-        line-height: 1.15;
-        margin-bottom: 12px;
-    }
+  .join-crb p {
+    font-size: 0.85rem;
+    line-height: 1.6;
+    margin-bottom: 22px;
+  }
 
-    .join-crb p {
-        font-size: 0.85rem;
-        line-height: 1.6;
-        margin-bottom: 22px;
-    }
+  .join-values {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .join-values {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .join-values span {
-        font-size: 0.78rem;
-        letter-spacing: 1px;
-    }
-
+  .join-values span {
+    font-size: 0.78rem;
+    letter-spacing: 1px;
+  }
 }
-
 
 /* ================================
    SMALL PHONES
 ================================ */
 
 @media (max-width: 360px) {
+  .join-crb {
+    padding: 40px 5%;
+  }
 
-    .join-crb {
-        padding: 40px 5%;
-    }
+  .section-tag {
+    font-size: 0.65rem;
+  }
 
-    .section-tag {
-        font-size: 0.65rem;
-    }
+  .join-crb h2 {
+    font-size: 1.55rem;
+  }
 
-    .join-crb h2 {
-        font-size: 1.55rem;
-    }
+  .join-crb p {
+    font-size: 0.78rem;
+    line-height: 1.5;
+  }
 
-    .join-crb p {
-        font-size: 0.78rem;
-        line-height: 1.5;
-    }
+  .join-values {
+    gap: 8px;
+  }
 
-    .join-values {
-        gap: 8px;
-    }
-
-    .join-values span {
-        font-size: 0.72rem;
-    }
-
+  .join-values span {
+    font-size: 0.72rem;
+  }
 }

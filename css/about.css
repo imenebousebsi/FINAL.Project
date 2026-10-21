@@ -93,7 +93,7 @@
   margin-bottom: 18px;
   padding-left: 55px;
 
-    color: var(--crb-red-dark);
+  color: var(--crb-red-dark);
 
   font-size: 25px;
   font-weight: 800;
@@ -166,7 +166,6 @@
 
 /* ---------- TABLET ---------- */
 @media (max-width: 992px) {
-
   .about {
     min-height: auto;
     padding: 80px 6%;
@@ -197,13 +196,10 @@
     font-size: 14px;
     line-height: 1.7;
   }
-
 }
-
 
 /* ---------- MOBILE ---------- */
 @media (max-width: 768px) {
-
   .about {
     min-height: auto;
     padding: 70px 6%;
@@ -263,13 +259,10 @@
     padding: 10px 15px;
     font-size: 13px;
   }
-
 }
-
 
 /* ---------- SMALL PHONES ---------- */
 @media (max-width: 480px) {
-
   .about {
     padding: 55px 5%;
     gap: 45px;
@@ -312,13 +305,10 @@
     font-size: 12px;
     padding: 10px 14px;
   }
-
 }
-
 
 /* ---------- VERY SMALL PHONES ---------- */
 @media (max-width: 360px) {
-
   .about {
     padding: 45px 5%;
   }
@@ -338,5 +328,4 @@
   .about-text > p:not(.about-title) {
     font-size: 12px;
   }
-
 }
