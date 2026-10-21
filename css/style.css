@@ -63,7 +63,6 @@ nav {
   width: auto;
 }
 
-
 .logo-text {
   display: flex;
   flex-direction: column;
@@ -74,7 +73,6 @@ nav {
 .logo-text span {
   color: var(--crb-red);
 }
-
 
 /* Nav Links */
 nav ul {
@@ -92,7 +90,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: var(--crb-red-dark)
+  color: var(--crb-red-dark);
 }
 
 /*RESET*/
@@ -283,57 +281,8 @@ body {
   color: #e30613;
 }
 
-/* ================= RESPONSIVE ================= */
-
-/* ---------- TABLET ---------- */
-@media (max-width: 992px) {
-
-  /* NAVBAR */
-  nav {
-    max-width: 100%;
-    padding: 1rem 1.5rem;
-  }
-
-  nav ul {
-    gap: 1.2rem;
-  }
-
-  nav ul li a {
-    font-size: 0.8rem;
-  }
-
-  .logo img {
-    height: 36px;
-  }
-
-  .logo-text {
-    font-size: 0.75rem;
-  }
-
-  /* HERO */
-  .hero {
-    height: 400px;
-  }
-
-  .hero-text {
-    width: 55%;
-    padding-left: 35px;
-  }
-
-  .hero h1 {
-    font-size: 45px;
-  }
-
-  .description {
-    max-width: 380px;
-    font-size: 11px;
-  }
-}
-
-
 /* ---------- MOBILE ---------- */
 @media (max-width: 768px) {
-
   /* HEADER */
   header {
     position: relative;
@@ -371,7 +320,6 @@ body {
     font-size: 0.7rem;
     letter-spacing: 0.5px;
   }
-
 
   /* HERO */
   .hero {
@@ -443,10 +391,8 @@ body {
   }
 }
 
-
 /* ---------- SMALL PHONES ---------- */
 @media (max-width: 480px) {
-
   /* NAVBAR */
   nav {
     padding: 12px 8px;
@@ -468,7 +414,6 @@ body {
   nav ul li a {
     font-size: 0.62rem;
   }
-
 
   /* HERO */
   .hero {
@@ -504,10 +449,8 @@ body {
   }
 }
 
-
 /* ---------- VERY SMALL PHONES ---------- */
 @media (max-width: 360px) {
-
   .logo img {
     height: 30px;
   }
