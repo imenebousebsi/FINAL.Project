@@ -136,6 +136,7 @@
 ========================= */
 /* ---------- LARGE TABLET ---------- */
 @media (max-width: 1200px) {
+
   .program {
     padding: 4rem 6%;
   }
@@ -147,10 +148,13 @@
   .program-card {
     width: 300px;
   }
+
 }
+
 
 /* ---------- TABLET ---------- */
 @media (max-width: 992px) {
+
   .program {
     padding: 3.5rem 5%;
   }
@@ -182,10 +186,13 @@
     max-width: 500px;
     margin: 0 auto;
   }
+
 }
+
 
 /* ---------- MOBILE ---------- */
 @media (max-width: 768px) {
+
   .program {
     padding: 3rem 6%;
     background-position: center;
@@ -251,10 +258,13 @@
     padding: 0.7rem 0.9rem;
     font-size: 0.78rem;
   }
+
 }
+
 
 /* ---------- SMALL PHONES ---------- */
 @media (max-width: 480px) {
+
   .program {
     padding: 2.5rem 5%;
   }
@@ -311,10 +321,13 @@
     padding: 0.65rem 0.8rem;
     font-size: 0.72rem;
   }
+
 }
+
 
 /* ---------- VERY SMALL PHONES ---------- */
 @media (max-width: 360px) {
+
   .program {
     padding: 2.2rem 5%;
   }
@@ -342,4 +355,5 @@
   .program-card p {
     font-size: 0.73rem;
   }
+
 }

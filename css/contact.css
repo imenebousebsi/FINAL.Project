@@ -102,11 +102,6 @@ nav {
    ================= HERO IMAGE =============================
    ========================================================= */
 
-/*
-   الصورة موجودة داخل contact-hero-content في HTML،
-   لذلك نخليها absolute بالنسبة للـ contact-hero
-   عن طريق جعل contact-hero-content غير positioned.
-*/
 
 .contact-hero .hero-image {
   position: absolute;

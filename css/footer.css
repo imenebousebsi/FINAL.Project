@@ -74,168 +74,179 @@ footer {
 ================================ */
 
 @media (max-width: 992px) {
-  .footerContainer {
-    padding: 60px 25px 20px;
-  }
 
-  .socialIcons a {
-    padding: 9px;
-    margin: 8px;
-  }
+    .footerContainer {
+        padding: 60px 25px 20px;
+    }
 
-  .socialIcons a i {
-    font-size: 1.7em;
-  }
+    .socialIcons a {
+        padding: 9px;
+        margin: 8px;
+    }
 
-  .footerNav {
-    margin: 25px 0;
-  }
+    .socialIcons a i {
+        font-size: 1.7em;
+    }
 
-  .footerNav ul {
-    flex-wrap: wrap;
-    gap: 5px;
-  }
+    .footerNav {
+        margin: 25px 0;
+    }
 
-  .footerNav ul li a {
-    font-size: 1.1em;
-    margin: 12px;
-  }
+    .footerNav ul {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .footerNav ul li a {
+        font-size: 1.1em;
+        margin: 12px;
+    }
+
 }
+
 
 /* ================================
    TABLET / MOBILE
 ================================ */
 
 @media (max-width: 768px) {
-  .footerContainer {
-    padding: 50px 20px 15px;
-  }
 
-  .socialIcons {
-    flex-wrap: wrap;
-  }
+    .footerContainer {
+        padding: 50px 20px 15px;
+    }
 
-  .socialIcons a {
-    padding: 8px;
-    margin: 6px;
-  }
+    .socialIcons {
+        flex-wrap: wrap;
+    }
 
-  .socialIcons a i {
-    font-size: 1.5em;
-  }
+    .socialIcons a {
+        padding: 8px;
+        margin: 6px;
+    }
 
-  .footerNav {
-    margin: 20px 0;
-  }
+    .socialIcons a i {
+        font-size: 1.5em;
+    }
 
-  .footerNav ul {
-    flex-wrap: wrap;
-    gap: 5px 10px;
-  }
+    .footerNav {
+        margin: 20px 0;
+    }
 
-  .footerNav ul li a {
-    font-size: 0.95em;
-    margin: 8px;
-  }
+    .footerNav ul {
+        flex-wrap: wrap;
+        gap: 5px 10px;
+    }
 
-  .footerBottom {
-    padding: 18px 12px;
-  }
+    .footerNav ul li a {
+        font-size: 0.95em;
+        margin: 8px;
+    }
 
-  .footerBottom p {
-    font-size: 13px;
-    line-height: 1.6;
-  }
+    .footerBottom {
+        padding: 18px 12px;
+    }
+
+    .footerBottom p {
+        font-size: 13px;
+        line-height: 1.6;
+    }
+
 }
+
 
 /* ================================
    MOBILE
 ================================ */
 
 @media (max-width: 480px) {
-  .footerContainer {
-    padding: 40px 15px 15px;
-  }
 
-  .socialIcons {
-    gap: 5px;
-  }
+    .footerContainer {
+        padding: 40px 15px 15px;
+    }
 
-  .socialIcons a {
-    padding: 8px;
-    margin: 4px;
-  }
+    .socialIcons {
+        gap: 5px;
+    }
 
-  .socialIcons a i {
-    font-size: 1.3em;
-  }
+    .socialIcons a {
+        padding: 8px;
+        margin: 4px;
+    }
 
-  .footerNav {
-    margin: 20px 0;
-  }
+    .socialIcons a i {
+        font-size: 1.3em;
+    }
 
-  .footerNav ul {
-    flex-direction: column;
-    gap: 8px;
-  }
+    .footerNav {
+        margin: 20px 0;
+    }
 
-  .footerNav ul li {
-    text-align: center;
-  }
+    .footerNav ul {
+        flex-direction: column;
+        gap: 8px;
+    }
 
-  .footerNav ul li a {
-    display: block;
-    font-size: 0.9em;
-    margin: 5px;
-  }
+    .footerNav ul li {
+        text-align: center;
+    }
 
-  .footerBottom {
-    padding: 15px 10px;
-  }
+    .footerNav ul li a {
+        display: block;
+        font-size: 0.9em;
+        margin: 5px;
+    }
 
-  .footerBottom p {
-    font-size: 11px;
-    line-height: 1.7;
-  }
+    .footerBottom {
+        padding: 15px 10px;
+    }
 
-  .designer {
-    font-size: 11px;
-    letter-spacing: 0.8px;
-    margin: 0 3px;
-  }
+    .footerBottom p {
+        font-size: 11px;
+        line-height: 1.7;
+    }
+
+    .designer {
+        font-size: 11px;
+        letter-spacing: 0.8px;
+        margin: 0 3px;
+    }
+
 }
+
 
 /* ================================
    SMALL PHONES
 ================================ */
 
 @media (max-width: 360px) {
-  .footerContainer {
-    padding: 35px 10px 12px;
-  }
 
-  .socialIcons a {
-    padding: 7px;
-    margin: 3px;
-  }
+    .footerContainer {
+        padding: 35px 10px 12px;
+    }
 
-  .socialIcons a i {
-    font-size: 1.1em;
-  }
+    .socialIcons a {
+        padding: 7px;
+        margin: 3px;
+    }
 
-  .footerNav ul li a {
-    font-size: 0.8em;
-  }
+    .socialIcons a i {
+        font-size: 1.1em;
+    }
 
-  .footerBottom {
-    padding: 12px 8px;
-  }
+    .footerNav ul li a {
+        font-size: 0.8em;
+    }
 
-  .footerBottom p {
-    font-size: 10px;
-  }
+    .footerBottom {
+        padding: 12px 8px;
+    }
 
-  .designer {
-    font-size: 10px;
-  }
+    .footerBottom p {
+        font-size: 10px;
+    }
+
+    .designer {
+        font-size: 10px;
+    }
+
 }

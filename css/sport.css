@@ -157,6 +157,7 @@
 ========================= */
 /* ---------- LARGE TABLET ---------- */
 @media (max-width: 1200px) {
+
   .sports {
     padding: 70px 5%;
   }
@@ -169,10 +170,13 @@
   .sport-card {
     height: 300px;
   }
+
 }
+
 
 /* ---------- TABLET ---------- */
 @media (max-width: 992px) {
+
   .sports {
     padding: 65px 5%;
   }
@@ -196,10 +200,13 @@
     left: 14px;
     bottom: 18px;
   }
+
 }
+
 
 /* ---------- MOBILE ---------- */
 @media (max-width: 768px) {
+
   .sports {
     padding: 55px 6%;
   }
@@ -238,10 +245,13 @@
     height: 32px;
     font-size: 17px;
   }
+
 }
+
 
 /* ---------- SMALL PHONES ---------- */
 @media (max-width: 480px) {
+
   .sports {
     padding: 50px 5%;
   }
@@ -279,10 +289,13 @@
     bottom: 12px;
     font-size: 15px;
   }
+
 }
+
 
 /* ---------- VERY SMALL PHONES ---------- */
 @media (max-width: 360px) {
+
   .sports {
     padding: 45px 5%;
   }
@@ -308,4 +321,5 @@
     bottom: 10px;
     font-size: 14px;
   }
+
 }

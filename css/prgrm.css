@@ -219,6 +219,7 @@ td.green {
 ======================================== */
 /* ---------- TABLET ---------- */
 @media (max-width: 992px) {
+
   /* NAVBAR */
   nav {
     padding: 1rem 1.5rem;
@@ -264,13 +265,16 @@ td.green {
   th {
     font-size: 0.78rem;
   }
+
 }
+
 
 /* ========================================
    MOBILE
 ======================================== */
 
 @media (max-width: 768px) {
+
   /* ---------- HEADER ---------- */
 
   header {
@@ -312,6 +316,7 @@ td.green {
     letter-spacing: 0.5px;
   }
 
+
   /* ---------- PROGRAM SECTION ---------- */
 
   .program-section {
@@ -320,6 +325,7 @@ td.green {
     padding: 1rem;
     border-radius: 7px;
   }
+
 
   /* ---------- PROGRAM HEADER ---------- */
 
@@ -346,6 +352,7 @@ td.green {
   .program-header h4 {
     font-size: 0.85rem;
   }
+
 
   /* ---------- TABLE ---------- */
 
@@ -381,6 +388,7 @@ td.green {
     padding-left: 0.7rem;
   }
 
+
   /* ---------- CATEGORY CELLS ---------- */
 
   td.red,
@@ -388,6 +396,7 @@ td.green {
   td.green {
     font-size: 0.7rem;
   }
+
 
   /* ---------- SPECIAL TABLES ---------- */
 
@@ -397,6 +406,7 @@ td.green {
     width: 100%;
     margin: 1rem auto;
   }
+
 
   /* ---------- CONTACT ---------- */
 
@@ -412,13 +422,16 @@ td.green {
   .contact strong {
     font-size: 1rem;
   }
+
 }
+
 
 /* ========================================
    SMALL PHONES
 ======================================== */
 
 @media (max-width: 480px) {
+
   /* NAVBAR */
 
   nav {
@@ -442,6 +455,7 @@ td.green {
     font-size: 0.6rem;
   }
 
+
   /* PROGRAM */
 
   .program-section {
@@ -449,6 +463,7 @@ td.green {
     padding: 0.8rem;
     margin: 20px auto;
   }
+
 
   /* HEADER */
 
@@ -467,6 +482,7 @@ td.green {
   .program-header h4 {
     font-size: 0.75rem;
   }
+
 
   /* TABLE */
 
@@ -494,6 +510,7 @@ td.green {
     font-size: 0.62rem;
   }
 
+
   /* CONTACT */
 
   .contact {
@@ -507,13 +524,16 @@ td.green {
   .contact strong {
     font-size: 0.9rem;
   }
+
 }
+
 
 /* ========================================
    VERY SMALL PHONES
 ======================================== */
 
 @media (max-width: 360px) {
+
   .program-section {
     width: 97%;
     padding: 0.7rem;
@@ -565,4 +585,5 @@ td.green {
   .contact strong {
     font-size: 0.82rem;
   }
+
 }
