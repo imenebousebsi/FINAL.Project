@@ -1184,7 +1184,13 @@ footer {
   min-width: 42px;
   min-height: 42px;
   margin: 0.25rem;
+
   transition: background-color 0.3s ease, color 0.3s ease;
+
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+
 }
 
 .socialIcons a i {
@@ -1336,4 +1342,6 @@ footer {
     box-shadow: none !important;
     border: none !important;
   }
+
 }
+

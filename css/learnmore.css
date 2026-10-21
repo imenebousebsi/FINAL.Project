@@ -63,8 +63,6 @@ nav ul li a:hover {
   color: var(--crb-red-dark);
 }
 
-
-
 /* ==============================
    HERO SECTION
 ================================= */
@@ -114,7 +112,6 @@ nav ul li a:hover {
   line-height: 1.8;
 }
 
-
 /* ==============================
    ABOUT SECTION
 ================================= */
@@ -129,7 +126,7 @@ nav ul li a:hover {
   align-items: center;
 }
 
-.about-image2{
+.about-image2 {
   height: 480px;
   overflow: hidden;
 }
@@ -141,7 +138,6 @@ nav ul li a:hover {
   display: block;
   transition: transform 0.5s ease;
 }
-
 
 .about-content h2 {
   font-size: clamp(2.5rem, 5vw, 4rem);
@@ -158,7 +154,6 @@ nav ul li a:hover {
   line-height: 1.8;
   margin-bottom: 18px;
 }
-
 
 /* ==============================
    MAIN BUTTON
@@ -179,7 +174,6 @@ nav ul li a:hover {
   background: var(--crb-white);
   transform: translateY(-2px);
 }
-
 
 /* ==============================
    VALUES SECTION
@@ -248,7 +242,6 @@ nav ul li a:hover {
   line-height: 1.7;
 }
 
-
 /* ==============================
    SPORTS BANNER
 ================================= */
@@ -281,7 +274,6 @@ nav ul li a:hover {
   max-width: 600px;
   line-height: 1.7;
 }
-
 
 /* ==============================
    ATHLETES SECTION
@@ -323,10 +315,7 @@ nav ul li a:hover {
   right: 0;
   bottom: 0;
   padding: 35px 25px 25px;
-  background: linear-gradient(
-    transparent,
-    rgba(0, 0, 0, 0.95)
-  );
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.95));
 }
 
 .athlete-info span {
@@ -340,7 +329,6 @@ nav ul li a:hover {
   font-size: 1.5rem;
   margin-top: 7px;
 }
-
 
 /* ==============================
    CALL TO ACTION
@@ -365,11 +353,9 @@ nav ul li a:hover {
   color: var(--crb-red);
 }
 
-
 /* ==============================
    RESPONSIVE 
 ================================= */
-
 @media (max-width: 1000px) {
   .about-section {
     grid-template-columns: 1fr;
