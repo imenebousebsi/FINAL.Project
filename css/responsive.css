@@ -1339,3 +1339,25 @@ footer {
     border: none !important;
   }
 }
+
+/* =========================================
+   hero img of inscription and conact pages should have a fixed height to avoid stretching the page on print
+   ========================================= */
+.contact-hero,
+.inscription-hero {
+  height: 380px !important;
+  min-height: 380px !important;
+  max-height: 420px !important;
+}
+
+.contact-hero .hero-image,
+.inscription-hero .hero-image {
+  height: 100% !important;
+}
+
+.contact-hero .hero-image img,
+.inscription-hero .hero-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
