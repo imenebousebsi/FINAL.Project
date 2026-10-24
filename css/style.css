@@ -285,7 +285,6 @@ body {
 
 /* ---------- TABLET ---------- */
 @media (max-width: 992px) {
-
   /* NAVBAR */
   nav {
     max-width: 100%;
@@ -328,10 +327,8 @@ body {
   }
 }
 
-
 /* ---------- MOBILE ---------- */
 @media (max-width: 768px) {
-
   /* HEADER */
   header {
     position: relative;
@@ -369,7 +366,6 @@ body {
     font-size: 0.7rem;
     letter-spacing: 0.5px;
   }
-
 
   /* HERO */
   .hero {
@@ -441,10 +437,8 @@ body {
   }
 }
 
-
 /* ---------- SMALL PHONES ---------- */
 @media (max-width: 480px) {
-
   /* NAVBAR */
   nav {
     padding: 12px 8px;
@@ -466,7 +460,6 @@ body {
   nav ul li a {
     font-size: 0.62rem;
   }
-
 
   /* HERO */
   .hero {
@@ -502,10 +495,8 @@ body {
   }
 }
 
-
 /* ---------- VERY SMALL PHONES ---------- */
 @media (max-width: 360px) {
-
   .logo img {
     height: 30px;
   }
