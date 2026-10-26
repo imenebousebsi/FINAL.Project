@@ -55,6 +55,12 @@ nav {
   text-decoration: none;
   color: var(--crb-white);
   font-weight: bold;
+  .logo-text,
+  .site-title {
+    font-family: "Cairo", sans-serif !important;
+    font-weight: 900 !important; /* وزن ثقيل وقوي ليتناسب مع اللوجو الرياضي */
+    text-transform: uppercase;
+  }
 }
 
 /* Image*/
