@@ -628,3 +628,80 @@ nav {
     border: none;
   }
 }
+
+.copyright {
+  position: absolute;
+  bottom: 20px;
+  left: 8%;
+  right: 8%;
+  padding-top: 15px;
+  border-top: 1px solid #222;
+  color: #666;
+  font-size: 0.7rem;
+}
+
+/* ==============================
+   RESPONSIVE
+================================= */
+
+@media (max-width: 900px) {
+  .registration {
+    grid-template-columns: 1fr;
+    gap: 60px;
+  }
+
+  .form-preview {
+    order: -1;
+  }
+
+  .paper {
+    max-width: 550px;
+  }
+
+  footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .inscription-hero {
+    min-height: 300px;
+    padding: 60px 6%;
+  }
+
+  .hero-content h1 {
+    font-size: 2.6rem;
+  }
+
+  .registration {
+    padding: 60px 20px;
+  }
+
+  .section-title {
+    gap: 12px;
+  }
+
+  .section-title h2 {
+    font-size: 1.35rem;
+  }
+
+  .download-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .paper {
+    padding: 25px;
+    transform: none;
+  }
+
+  footer {
+    grid-template-columns: 1fr;
+    padding-bottom: 90px;
+  }
+
+  .copyright {
+    left: 6%;
+    right: 6%;
+  }
+}
