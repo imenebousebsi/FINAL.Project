@@ -55,6 +55,12 @@ nav {
   text-decoration: none;
   color: var(--crb-white);
   font-weight: bold;
+  .logo-text,
+  .site-title {
+    font-family: "Cairo", sans-serif !important;
+    font-weight: 900 !important; /* وزن ثقيل وقوي ليتناسب مع اللوجو الرياضي */
+    text-transform: uppercase;
+  }
 }
 
 /* Image*/
@@ -285,7 +291,6 @@ body {
 
 /* ---------- TABLET ---------- */
 @media (max-width: 992px) {
-
   /* NAVBAR */
   nav {
     max-width: 100%;
@@ -328,10 +333,8 @@ body {
   }
 }
 
-
 /* ---------- MOBILE ---------- */
 @media (max-width: 768px) {
-
   /* HEADER */
   header {
     position: relative;
@@ -369,7 +372,6 @@ body {
     font-size: 0.7rem;
     letter-spacing: 0.5px;
   }
-
 
   /* HERO */
   .hero {
@@ -441,10 +443,8 @@ body {
   }
 }
 
-
 /* ---------- SMALL PHONES ---------- */
 @media (max-width: 480px) {
-
   /* NAVBAR */
   nav {
     padding: 12px 8px;
@@ -466,7 +466,6 @@ body {
   nav ul li a {
     font-size: 0.62rem;
   }
-
 
   /* HERO */
   .hero {
@@ -502,10 +501,8 @@ body {
   }
 }
 
-
 /* ---------- VERY SMALL PHONES ---------- */
 @media (max-width: 360px) {
-
   .logo img {
     height: 30px;
   }

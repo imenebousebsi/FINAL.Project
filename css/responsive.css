@@ -1,13 +1,12 @@
-
 /*
- * CRB RESPONSIVE ENHANCEMENTS
- * Ajoutez ce fichier APRÈS les feuilles CSS existantes.
- * Objectif : corriger le responsive et quelques erreurs CSS sans remplacer
- * la palette, les images, les textes ou l'identité visuelle existante.
+- CRB RESPONSIVE ENHANCEMENTS
+- Ajoutez ce fichier APRÈS les feuilles CSS existantes.
+- Objectif : corriger le responsive et quelques erreurs CSS sans remplacer
+- la palette, les images, les textes ou l'identité visuelle existante.
  */
 
 /* =========================================================
-   1. BASE RESPONSIVE / PREVENT OVERFLOW
+1. BASE RESPONSIVE / PREVENT OVERFLOW
    ========================================================= */
 
 :root {
@@ -101,7 +100,7 @@ body {
 }
 
 /* =========================================================
-   2. HEADER / NAVIGATION
+2. HEADER / NAVIGATION
    ========================================================= */
 
 header {
@@ -219,7 +218,7 @@ nav ul li a {
 }
 
 /* =========================================================
-   3. HOME HERO
+3. HOME HERO
    ========================================================= */
 
 .hero {
@@ -341,7 +340,7 @@ nav ul li a {
 }
 
 /* =========================================================
-   4. ABOUT SPLIT SECTION (.about)
+4. ABOUT SPLIT SECTION (.about)
    ========================================================= */
 
 .about {
@@ -447,7 +446,7 @@ nav ul li a {
 }
 
 /* =========================================================
-   5. ABOUT PAGE (.about-hero / .about-section)
+5. ABOUT PAGE (.about-hero / .about-section)
    ========================================================= */
 
 .about-hero,
@@ -609,7 +608,7 @@ nav ul li a {
 }
 
 /* =========================================================
-   6. SPORTS CARDS
+6. SPORTS CARDS
    ========================================================= */
 
 .sports {
@@ -679,7 +678,7 @@ nav ul li a {
 }
 
 /* =========================================================
-   7. PROGRAM OVERVIEW (.program)
+7. PROGRAM OVERVIEW (.program)
    ========================================================= */
 
 .program {
@@ -748,7 +747,7 @@ nav ul li a {
 }
 
 /* =========================================================
-   8. PROGRAM SCHEDULE TABLES
+8. PROGRAM SCHEDULE TABLES
    ========================================================= */
 
 .program-section {
@@ -820,7 +819,7 @@ nav ul li a {
 }
 
 /* =========================================================
-   9. JOIN CRB SECTION
+9. JOIN CRB SECTION
    ========================================================= */
 
 .join-crb {
@@ -866,7 +865,7 @@ nav ul li a {
 }
 
 /* =========================================================
-   10. CONTACT PAGE
+10. CONTACT PAGE
    ========================================================= */
 
 .contact-hero {
@@ -1027,7 +1026,7 @@ nav ul li a {
 }
 
 /* =========================================================
-   11. REGISTRATION / INSCRIPTION PAGE
+11. REGISTRATION / INSCRIPTION PAGE
    ========================================================= */
 
 .inscription-hero {
@@ -1156,7 +1155,7 @@ nav ul li a {
 }
 
 /* =========================================================
-   12. FOOTER
+12. FOOTER
    ========================================================= */
 
 footer {
@@ -1185,7 +1184,9 @@ footer {
   min-width: 42px;
   min-height: 42px;
   margin: 0.25rem;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .socialIcons a i {
@@ -1258,7 +1259,7 @@ footer {
 }
 
 /* =========================================================
-   13. TABLET / SMALL DESKTOP GENERAL ADJUSTMENTS
+13. TABLET / SMALL DESKTOP GENERAL ADJUSTMENTS
    ========================================================= */
 
 @media (min-width: 769px) and (max-width: 1100px) {
@@ -1288,7 +1289,7 @@ footer {
 }
 
 /* =========================================================
-   14. REDUCED MOTION ACCESSIBILITY
+14. REDUCED MOTION ACCESSIBILITY
    ========================================================= */
 
 @media (prefers-reduced-motion: reduce) {
@@ -1303,7 +1304,7 @@ footer {
 }
 
 /* =========================================================
-   15. PRINT
+15. PRINT
    ========================================================= */
 
 @media print {
@@ -1339,6 +1340,75 @@ footer {
   }
 }
 
+/* =========================================
+   تعديل حجم الهيرو في صفحتي Contact و Inscription
+   ========================================= */
+.contact-hero,
+.inscription-hero {
+  height: 380px !important;
+  min-height: 380px !important;
+  max-height: 420px !important;
+}
 
+.contact-hero .hero-image,
+.inscription-hero .hero-image {
+  height: 100% !important;
+}
 
+.contact-hero .hero-image img,
+.inscription-hero .hero-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
 
+/* =========================================
+   الحل الجذري والموحد لكل صور الهيرو في الموقع
+   ========================================= */
+
+/* 1. ضبط الشاشات الكبيرة (الكمبيوتر واللابتوب) */
+.hero,
+.contact-hero,
+.inscription-hero,
+.about-hero,
+.sports-hero {
+  height: 450px !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.hero img,
+.contact-hero img,
+.inscription-hero img,
+.about-hero img,
+.sports-hero img,
+.hero-image img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center 30% !important;
+}
+
+/* 2. ضبط الهواتف الذكية (لجميع الصفحات دفعة واحدة) */
+@media (max-width: 768px) {
+  .hero,
+  .contact-hero,
+  .inscription-hero,
+  .about-hero,
+  .sports-hero {
+    height: 330px !important;
+    min-height: 330px !important;
+  }
+
+  .hero img,
+  .contact-hero img,
+  .inscription-hero img,
+  .about-hero img,
+  .sports-hero img,
+  .hero-image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: 50% 35% !important;
+  }
+}

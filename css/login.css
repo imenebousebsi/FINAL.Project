@@ -37,6 +37,13 @@ nav {
   color: var(--crb-white);
 
   font-weight: bold;
+
+  .logo-text,
+  .site-title {
+    font-family: "Cairo", sans-serif !important;
+    font-weight: 900 !important;
+    text-transform: uppercase;
+  }
 }
 
 /* ================= LOGO IMAGE ================= */
